@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Zapsters — Restaurant Menu</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Zapsters</h1>
+      <p class="tagline">Tasty made simple — explore our menu</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <div class="filters" role="tablist" aria-label="Menu categories">
+        <button class="filter-btn active" data-category="All">All</button>
+        <button class="filter-btn" data-category="Starters">Starters</button>
+        <button class="filter-btn" data-category="Mains">Mains</button>
+        <button class="filter-btn" data-category="Desserts">Desserts</button>
+        <button class="filter-btn" data-category="Drinks">Drinks</button>
+      </div>
+
+      <div class="search">
+        <label for="search-input" class="visually-hidden">Search menu</label>
+        <input id="search-input" type="search" placeholder="Search dishes, ingredients..." />
+      </div>
+    </section>
+
+    <section id="menu" class="menu-grid" aria-live="polite">
+      <!-- Menu items rendered here by script.js -->
+    </section>
+  </main>
+
+  <!-- Modal for item detail -->
+  <div id="modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button id="modal-close" class="modal-close" aria-label="Close">×</button>
+      <img id="modal-img" src="" alt="" />
+      <div class="modal-body">
+        <h2 id="modal-title"></h2>
+        <p id="modal-desc"></p>
+        <p class="modal-price" id="modal-price"></p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Zapsters — Built for internship purpose</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
