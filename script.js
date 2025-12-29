@@ -1,44 +1,76 @@
-// Sample menu data. Replace or extend items as you like.
+// Sample Indian-focused menu data. Replace or extend items as you like.
 const MENU = [
   {
     id: 1,
-    title: "Tomato Basil Bruschetta",
-    category: "Starters",
-    price: "₹129",
+    title: "Masala Dosa",
+    category: "South Indian",
+    price: "₹119",
     img: "https://images.unsplash.com/photo-1604908177522-3d6f06a3b3f9?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=1c7b1f8a0cd6e2a0f7c7a0b7b7f8c2c0",
-    desc: "Toasted baguette topped with fresh tomato, basil, garlic and a drizzle of olive oil."
+    desc: "Crispy rice crepe stuffed with spiced potato, served with coconut chutney and sambar. (South Indian favorite)"
   },
   {
     id: 2,
-    title: "Classic Margherita Pizza",
-    category: "Mains",
-    price: "₹349",
-    img: "https://images.unsplash.com/photo-1548365328-9b6f5b3f0e7f?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=3a9d6b8f4c2a9b3f6a1b2c3d4e5f6789",
-    desc: "Stone-baked pizza with fresh mozzarella, tomato sauce and basil."
+    title: "Idli with Sambar",
+    category: "South Indian",
+    price: "₹99",
+    img: "https://images.unsplash.com/photo-1604908177527-1a6b0e2f9b3d?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=2a1b3c4d5e6f7a8b9c0d1e2f3a4b5c6d",
+    desc: "Steamed rice cakes (idli) served with hot sambar and two chutneys — coconut and tomato."
   },
   {
     id: 3,
-    title: "Grilled Chicken Sandwich",
-    category: "Mains",
-    price: "₹289",
-    img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=8ddd5b0a1b7d8a9f2c3e4f5a6b7c8d9e",
-    desc: "Tender grilled chicken with fresh greens, tomato and aioli on toasted bread."
+    title: "Medu Vada",
+    category: "South Indian",
+    price: "₹129",
+    img: "https://images.unsplash.com/photo-1589308078058-ef0f2cd7b4d8?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=5f4e3d2c1b0a9e8d7c6b5a4f3e2d1c0b",
+    desc: "Crispy savory lentil doughnuts served with sambar and chutney. Popular South Indian snack."
   },
   {
     id: 4,
-    title: "Chocolate Lava Cake",
-    category: "Desserts",
-    price: "₹149",
-    img: "https://images.unsplash.com/photo-1604908177527-1a6b0e2f9b3d?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=2a1b3c4d5e6f7a8b9c0d1e2f3a4b5c6d",
-    desc: "Warm chocolate cake with a gooey molten center, served with vanilla ice cream."
+    title: "Paneer Butter Masala",
+    category: "Mains",
+    price: "₹249",
+    img: "https://images.unsplash.com/photo-1604908177523-5c6f06a3b3f1?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=3b7e1a2c4d5f6a7b8c9d0e1f2a3b4c5d",
+    desc: "Cottage cheese cubes simmered in a rich tomato–butter gravy with aromatic spices. Best with naan or rice."
   },
   {
     id: 5,
-    title: "Lemon Iced Tea",
+    title: "Hyderabadi Chicken Biryani",
+    category: "Mains",
+    price: "₹359",
+    img: "https://images.unsplash.com/photo-1603079847493-6e3b9d5837c7?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=4c9d9b8a7e6f5d4c3b2a1f0e9d8c7b6a",
+    desc: "Layered long-grain rice and marinated chicken cooked in the dum style with saffron and whole spices."
+  },
+  {
+    id: 6,
+    title: "Pav Bhaji",
+    category: "Mains",
+    price: "₹179",
+    img: "https://images.unsplash.com/photo-1542736667-069246bdbc75?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=9d8c7b6a5f4e3d2c1b0a9e8d7c6b5a4f",
+    desc: "Spiced mashed vegetable curry served with butter-toasted pav (bread). Street-food favorite from Maharashtra."
+  },
+  {
+    id: 7,
+    title: "Butter Naan",
+    category: "Mains",
+    price: "₹59",
+    img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=6a5b4c3d2e1f0a9b8c7d6e5f4a3b2c1d",
+    desc: "Soft leavened flatbread brushed with butter — perfect to pair with gravies."
+  },
+  {
+    id: 8,
+    title: "Gulab Jamun",
+    category: "Desserts",
+    price: "₹89",
+    img: "https://images.unsplash.com/photo-1564758866816-2e4b3a9f6b45?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=7b6c5d4e3f2a1b0c9d8e7f6a5b4c3d2e",
+    desc: "Soft fried milk dumplings soaked in rose-scented sugar syrup. A beloved Indian dessert."
+  },
+  {
+    id: 9,
+    title: "Masala Chai",
     category: "Drinks",
-    price: "₹99",
-    img: "https://images.unsplash.com/photo-1564510714747-8b33e3dba7d9?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=7f6d5c4b3a2b1c0d9e8f7a6b5c4d3e2f",
-    desc: "Refreshing lemon iced tea with a hint of mint."
+    price: "₹39",
+    img: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=8c7d6e5f4a3b2c1d0e9f8a7b6c5d4e3f",
+    desc: "Strong spiced Indian tea brewed with milk, sugar and warming spices like cardamom and ginger."
   }
 ];
 
