@@ -13,7 +13,7 @@ const MENU = [
     title: "Idli with Sambar",
     category: "South Indian",
     price: "₹99",
-    img: "https://images.unsplash.com/photo-1604908177527-1a6b0e2f9b3d?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=2a1b3c4d5e6f7a8b9c0d1e2f3a4b5c6d",
+    img: "02-idli-sambar.webp.jpeg",
     desc: "Steamed rice cakes (idli) served with hot sambar and two chutneys — coconut and tomato."
   },
   {
