@@ -5,7 +5,7 @@ const MENU = [
     title: "Masala Dosa",
     category: "South Indian",
     price: "₹119",
-    img: "https://images.unsplash.com/photo-1604908177522-3d6f06a3b3f9?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=1c7b1f8a0cd6e2a0f7c7a0b7b7f8c2c0",
+    img: "Masala-dosa-1.webp",
     desc: "Crispy rice crepe stuffed with spiced potato, served with coconut chutney and sambar. (South Indian favorite)"
   },
   {
