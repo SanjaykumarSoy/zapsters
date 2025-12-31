@@ -29,7 +29,7 @@ const MENU = [
     title: "Paneer Butter Masala",
     category: "Mains",
     price: "₹249",
-    img: "https://images.unsplash.com/photo-1604908177523-5c6f06a3b3f1?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=3b7e1a2c4d5f6a7b8c9d0e1f2a3b4c5d",
+    img: "03-paneer-butter-masala.webp",
     desc: "Cottage cheese cubes simmered in a rich tomato–butter gravy with aromatic spices. Best with naan or rice."
   },
   {
