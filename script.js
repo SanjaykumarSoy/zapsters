@@ -41,7 +41,7 @@ const MENU = [
     desc: "Layered long-grain rice and marinated chicken cooked in the dum style with saffron and whole spices."
   },
   {
-    id: 7,
+    id: 6,
     title: "Butter Naan",
     category: "Mains",
     price: "₹59",
@@ -49,7 +49,7 @@ const MENU = [
     desc: "Soft leavened flatbread brushed with butter — perfect to pair with gravies."
   },
   {
-    id: 8,
+    id: 7,
     title: "Gulab Jamun",
     category: "Desserts",
     price: "₹89",
@@ -57,7 +57,7 @@ const MENU = [
     desc: "Soft fried milk dumplings soaked in rose-scented sugar syrup. A beloved Indian dessert."
   },
   {
-    id: 9,
+    id: 8,
     title: "Masala Chai",
     category: "Drinks",
     price: "₹39",
