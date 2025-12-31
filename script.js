@@ -41,14 +41,6 @@ const MENU = [
     desc: "Layered long-grain rice and marinated chicken cooked in the dum style with saffron and whole spices."
   },
   {
-    id: 6,
-    title: "Pav Bhaji",
-    category: "Mains",
-    price: "₹179",
-    img: "https://images.unsplash.com/photo-1542736667-069246bdbc75?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=9d8c7b6a5f4e3d2c1b0a9e8d7c6b5a4f",
-    desc: "Spiced mashed vegetable curry served with butter-toasted pav (bread). Street-food favorite from Maharashtra."
-  },
-  {
     id: 7,
     title: "Butter Naan",
     category: "Mains",
