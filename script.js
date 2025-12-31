@@ -21,7 +21,7 @@ const MENU = [
     title: "Medu Vada",
     category: "South Indian",
     price: "₹129",
-    img: "https://images.unsplash.com/photo-1589308078058-ef0f2cd7b4d8?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=5f4e3d2c1b0a9e8d7c6b5a4f3e2d1c0b",
+    img: "blogmeduvadai.webp",
     desc: "Crispy savory lentil doughnuts served with sambar and chutney. Popular South Indian snack."
   },
   {
@@ -37,7 +37,7 @@ const MENU = [
     title: "Hyderabadi Chicken Biryani",
     category: "Mains",
     price: "₹359",
-    img: "https://images.unsplash.com/photo-1603079847493-6e3b9d5837c7?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=4c9d9b8a7e6f5d4c3b2a1f0e9d8c7b6a",
+    img: "04-hyderabadi-chicken-biryani.webp",
     desc: "Layered long-grain rice and marinated chicken cooked in the dum style with saffron and whole spices."
   },
   {
@@ -61,7 +61,7 @@ const MENU = [
     title: "Gulab Jamun",
     category: "Desserts",
     price: "₹89",
-    img: "https://images.unsplash.com/photo-1564758866816-2e4b3a9f6b45?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=7b6c5d4e3f2a1b0c9d8e7f6a5b4c3d2e",
+    img: "Gulab-Jamun-Recipe-Piping-Pot-Curry.jpg",
     desc: "Soft fried milk dumplings soaked in rose-scented sugar syrup. A beloved Indian dessert."
   },
   {
