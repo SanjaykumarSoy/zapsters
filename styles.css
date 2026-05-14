@@ -84,7 +84,6 @@ body{
 
 .description{margin-top:8px;color:#4b4b4b;font-size:.95rem}
 
-/* Modal */
 .modal{position:fixed;inset:0;display:grid;place-items:center;background:rgba(0,0,0,0.45);opacity:0;pointer-events:none;transition:opacity .18s ease}
 .modal[aria-hidden="false"]{opacity:1;pointer-events:auto}
 .modal-content{background:#fff;border-radius:12px;max-width:900px;width:94%;display:flex;gap:16px;overflow:hidden;box-shadow:0 20px 50px rgba(10,10,10,0.25)}
@@ -92,13 +91,10 @@ body{
 .modal-body{padding:18px;flex:1}
 .modal-close{position:absolute;right:20px;top:18px;background:transparent;border:0;font-size:26px;cursor:pointer;color:#fff}
 
-/* Footer */
 .site-footer{border-top:1px solid #eee;padding:18px 0;text-align:center;color:var(--muted);font-size:.95rem}
 
-/* Utilities */
 .visually-hidden{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px);white-space:nowrap}
 
-/* Responsive tweaks */
 @media (max-width:720px){
   .modal-content{flex-direction:column}
   .modal-content img{width:100%;height:220px}
